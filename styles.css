@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.summary-container {
+  margin-top: 30px;
+  background-color: #02273d ;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+
+.summary-table th,
+.summary-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+.summary-table thead {
+  background-color: #17405c;
+}
+
+.summary-table tfoot td {
+  background-color: #17405c;
+}
+
+
+.summary-table .total-row td {
+  background-color: #17405c;
+  font-size: 1.1em;
+  border-top: 2px solid #666;
+}
+
+input[type="number"] {
+  width: 60px;
+}
+
+.summary-container {
+  overflow-x: auto;
+}
+
+.summary-table {
+  min-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .summary-table th,
+  .summary-table td {
+    font-size: 14px; 
+    padding: 8px;
+  }
+
+  input[type="number"] {
+    width: 100%;
+  }
+}
