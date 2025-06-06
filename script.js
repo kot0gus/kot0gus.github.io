@@ -1,3 +1,4 @@
+
 const checkboxes = document.querySelectorAll('.option');
 const sectionsInput = document.getElementById('sections');
 const priceBreakdown = document.getElementById('price-breakdown');
