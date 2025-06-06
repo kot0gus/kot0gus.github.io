@@ -49,13 +49,13 @@ input[type="number"] {
 }
 
 .summary-table {
-  min-width: 600px; 
+  min-width: 600px;
 }
 
 @media (max-width: 768px) {
   .summary-table th,
   .summary-table td {
-    font-size: 14px;
+    font-size: 14px; 
     padding: 8px;
   }
 

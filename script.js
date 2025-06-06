@@ -33,5 +33,5 @@ function calculate() {
 
   checkboxes.forEach(cb => cb.addEventListener('change', calculate));
   sectionsInput.addEventListener('input', calculate);
-  
+
   calculate();
