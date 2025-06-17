@@ -12,7 +12,9 @@ const translations = {
         projects_title: "Skolas projekti",
         blog_title: "Blogs",
         bio_title: "Biogrāfija",
-        gallery_title: "Galerija"
+        gallery_title: "Galerija",
+        project_text: "Projekts 1 - apraksts",
+        bio_text: "Es esmu Darja Rižkova, RTK audzeknis programmēšanā. Turpmāk iešu macīties par programmēšanas lingvistu. Uz doto momentu zinu angļu, krievu, latviešu valodu un mācu vācu valodu."
     },
     en: {
         welcome: "Welcome to my personal site!",
@@ -23,7 +25,10 @@ const translations = {
         projects_title: "School Projects",
         blog_title: "Blog",
         bio_title: "Biography",
-        gallery_title: "Gallery"
+        gallery_title: "Gallery",
+        project_text: "Project description",
+        bio_text: "I'm Daria Ryzkhova, studying programming in RTK. In the future, I will study to programming linguist. At the moment, I know only three languages English, Russian and Latvian, but, also, I have been learning German for a half of year."
+
     },
     ru: {
         welcome: "Добро пожаловать на мой сайт!",
@@ -34,7 +39,9 @@ const translations = {
         projects_title: "Школьные проекты",
         blog_title: "Блог",
         bio_title: "Биография",
-        gallery_title: "Галерея"
+        gallery_title: "Галерея",
+        project_text:"Описание проекта",
+        bio_text:"Меня зовут Дарья Рыжкова, я учусь в РТК по специальности программиста. В будущем я буду учиться на лингвиста и по профессии лингвист по программированию. На данный момент я знаю английский, русский, латышский и изучаю немецкий."
     }
 };
 
