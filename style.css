@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: var(--header-bg, #333);
+    background: var(--header-bg, red);
     color: var(--header-color, white);
     padding: 20px;
     text-align: center;
