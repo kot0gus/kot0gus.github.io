@@ -1,67 +1,57 @@
 <!DOCTYPE html>
 <html lang="lv">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mājas lapas izstrādes kalkulators</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mana mājaslapa</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1 data-i18n="welcome">Sveiks/-a manā personīgajā lapā!</h1>
+        <nav>
+            <a href="#projekti" data-i18n="projects">Projekti</a>
+            <a href="#bio" data-i18n="about">Par mani</a>
+            <a href="#galerija" data-i18n="gallery">Galerija</a>
+        </nav>
+        <div class="controls">
+            <label for="language">🌐</label>
+            <select id="language">
+                <option value="lv">Latviešu</option>
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
 
-  <header>Mājas lapas izstrādes kalkulators</header>
+            <label for="theme">🎨</label>
+            <select id="theme">
+                <option value="light">Gaišā</option>
+                <option value="dark">Tumšā</option>
+            </select>
+        </div>
+    </header>
 
-  <div class="summary-container">
-    <table class="summary-table">
-      <thead>
-        <tr>
-          <th colspan="2">Izvēlētie parametri</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Sadaļu skaits</td>
-          <td><input type="number" aria-label= "Number of sections" id="sections" min="1;1" value="1"></td>
-        </tr>
-        <tr>
-          <td colspan="2"><strong>Funkcionalitāte</strong></td>
-        </tr>
-        <tr><td colspan="2"><label><input type="checkbox" class="option" data-price="300"> Vienkārša mājas lapa</label></td></tr>
-        <tr><td colspan="2"><label><input type="checkbox" class="option" data-price="500"> Responsīvs dizains</label></td></tr>
-        <tr><td colspan="2"><label><input type="checkbox" class="option" data-price="200"> Kontaktforma</label></td></tr>
-        <tr><td colspan="2"><label><input type="checkbox" class="option" data-price="350"> Internetveikals</label></td></tr>
-        <tr><td colspan="2"><label><input type="checkbox" class="option" data-price="250"> SEO optimizācija</label></td></tr>
-      </tbody>
-    </table>
-  </div>
+    <section id="projekti">
+        <h2 data-i18n="projects_title">Skolas projekti</h2>
+        <ul>
+            <li>Projekts 1 - apraksts</li>
+            <li>Projekts 2 - apraksts</li>
+        </ul>
+    </section>
 
-  <div class="summary-container">
-    <table class="summary-table" id="price-table">
-      <thead>
-        <tr>
-          <th>Komponente</th>
-          <th>Cena (€)</th>
-        </tr>
-      </thead>
-      <tbody id="price-breakdown">
-      </tbody>
-      <tfoot>
-        <tr>
-          <td>Kopā (bez PVN)</td>
-          <td id="subtotal">0 €</td>
-        </tr>
-        <tr>
-          <td>PVN (21%)</td>
-          <td id="vat">0 €</td>
-        </tr>
-        <tr class="total-row">
-          <td><strong>Kopā ar PVN</strong></td>
-          <td id="total">0 €</td>
-        </tr>
-      </tfoot>
-    </table>
-  </div>
+    <section id="bio">
+        <h2 data-i18n="bio_title">Biogrāfija</h2>
+        <p>Es esmu [vārds], students programmēšanā. Mani interesē tīmekļa izstrāde.</p>
+    </section>
 
-  <script src="script.js"></script>
+    <section id="galerija">
+        <h2 data-i18n="gallery_title">Galerija</h2>
+        <img src="img/example.jpg" alt="Attēls" width="300">
+    </section>
 
+    <footer>
+        <p>&copy; <span id="year"></span> Tavs Vārds</p>
+    </footer>
+
+    <script src="script1.js"></script>
 </body>
 </html>

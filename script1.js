@@ -1,7 +1,5 @@
-// Ievieto aktuālo gadu kājenē
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Valodu tulkojumi
 const translations = {
     lv: {
         welcome: "Sveiks/-a manā personīgajā lapā!",
@@ -38,7 +36,6 @@ const translations = {
     }
 };
 
-// Mainīt valodu
 document.getElementById('language').addEventListener('change', (e) => {
     const lang = e.target.value;
     document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -47,7 +44,6 @@ document.getElementById('language').addEventListener('change', (e) => {
     });
 });
 
-// Tēmas pārslēgšana
 document.getElementById('theme').addEventListener('change', (e) => {
     if (e.target.value === 'dark') {
         document.body.classList.add('dark-theme');
