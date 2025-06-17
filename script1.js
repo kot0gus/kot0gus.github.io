@@ -19,7 +19,6 @@ const translations = {
     en: {
         welcome: "Welcome to my personal site!",
         projects: "Projects",
-        blog: "Blog",
         about: "About Me",
         gallery: "Gallery",
         projects_title: "School Projects",
@@ -33,7 +32,6 @@ const translations = {
     ru: {
         welcome: "Добро пожаловать на мой сайт!",
         projects: "Проекты",
-        blog: "Блог",
         about: "Обо мне",
         gallery: "Галерея",
         projects_title: "Школьные проекты",
@@ -42,8 +40,21 @@ const translations = {
         gallery_title: "Галерея",
         project_text:"Описание проекта",
         bio_text:"Меня зовут Дарья Рыжкова, я учусь в РТК по специальности программиста. В будущем я буду учиться на лингвиста и по профессии лингвист по программированию. На данный момент я знаю английский, русский, латышский и изучаю немецкий."
+    },
+    de: {
+      welcome: "Willkommen auf meiner Website!",
+      projects: "Projekte",
+      about: "Über mich",
+      gallery: "Galerie",
+      projects_title: "Schulprojekte",
+      blog_title: "Blog",
+      bio_title: "Biographie",
+      gallery_title: "Galerie",
+      project_text: "Beschreibung des Projekts",
+      bio_text: "Mein Name ist Daria Ryzhkova, ich studiere am RTC und spezialisiere mich auf Programmierung. In Zukunft werde ich Linguistin studieren und von Beruf Linguistin für Programmierung sein. Im Moment ich spreche Englisch, Russisch, Lettisch und ein bisschen Deutsch."
+
     }
-};
+  };
 
 // Valodas pārslēgšana
 document.getElementById('language').addEventListener('change', (e) => {

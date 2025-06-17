@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: var(--header-bg, blue);
+    background: var(--header-bg, #520202);
     color: var(--header-color, white);
     padding: 20px;
     text-align: center;
@@ -39,7 +39,7 @@ footer {
 .dark-theme {
     --bg-color: #121212;
     --text-color: #e0e0e0;
-    --header-bg: #1f1f1f;
+    --header-bg: #520202;
     --header-color: #ffffff;
     --section-bg: #1e1e1e;
     --footer-bg: #111;
