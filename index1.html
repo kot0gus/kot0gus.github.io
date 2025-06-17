@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mana mājaslapa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 data-i18n="welcome">Sveiks/-a manā personīgajā lapā!</h1>
+        <nav>
+            <a href="#projekti" data-i18n="projects">Projekti</a>
+            <a href="#blogs" data-i18n="blog">Blogs</a>
+            <a href="#bio" data-i18n="about">Par mani</a>
+            <a href="#galerija" data-i18n="gallery">Galerija</a>
+        </nav>
+        <div class="controls">
+            <label for="language">🌐</label>
+            <select id="language">
+                <option value="lv">Latviešu</option>
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+            </select>
+
+            <label for="theme">🎨</label>
+            <select id="theme">
+                <option value="light">Gaišā</option>
+                <option value="dark">Tumšā</option>
+            </select>
+        </div>
+    </header>
+
+    <section id="projekti">
+        <h2 data-i18n="projects_title">Skolas projekti</h2>
+        <ul>
+            <li>Projekts 1 - apraksts</li>
+            <li>Projekts 2 - apraksts</li>
+        </ul>
+    </section>
+
+    <section id="blogs">
+        <h2 data-i18n="blog_title">Blogs</h2>
+        <p>Šeit būs mans blogs par programmēšanu un citiem tematiem.</p>
+    </section>
+
+    <section id="bio">
+        <h2 data-i18n="bio_title">Biogrāfija</h2>
+        <p>Es esmu [vārds], students programmēšanā. Mani interesē tīmekļa izstrāde.</p>
+    </section>
+
+    <section id="galerija">
+        <h2 data-i18n="gallery_title">Galerija</h2>
+        <img src="img/example.jpg" alt="Attēls" width="300">
+    </section>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Tavs Vārds</p>
+    </footer>
+
+    <script src="script1.js"></script>
+</body>
+</html>
