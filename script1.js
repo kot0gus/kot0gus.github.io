@@ -1,5 +1,7 @@
+// Gads kājenē
 document.getElementById('year').textContent = new Date().getFullYear();
 
+// Valodu tulkojumi
 const translations = {
     lv: {
         welcome: "Sveiks/-a manā personīgajā lapā!",
@@ -36,6 +38,7 @@ const translations = {
     }
 };
 
+// Valodas pārslēgšana
 document.getElementById('language').addEventListener('change', (e) => {
     const lang = e.target.value;
     document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -44,6 +47,7 @@ document.getElementById('language').addEventListener('change', (e) => {
     });
 });
 
+// Tēmas pārslēgšana
 document.getElementById('theme').addEventListener('change', (e) => {
     if (e.target.value === 'dark') {
         document.body.classList.add('dark-theme');
@@ -51,3 +55,21 @@ document.getElementById('theme').addEventListener('change', (e) => {
         document.body.classList.remove('dark-theme');
     }
 });
+
+// Sadaļu pārslēgšana
+document.querySelectorAll('nav a[data-section]').forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = link.getAttribute('data-section');
+        document.querySelectorAll('section').forEach(sec => {
+            if (sec.id === target) {
+                sec.classList.add('active');
+            } else {
+                sec.classList.remove('active');
+            }
+        });
+    });
+});
+
+// Noklusēti rādīt pirmo sadaļu
+document.querySelector("section").classList.add("active");

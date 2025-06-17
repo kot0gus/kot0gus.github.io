@@ -36,7 +36,6 @@ footer {
 .controls {
     margin-top: 10px;
 }
-
 .dark-theme {
     --bg-color: #121212;
     --text-color: #e0e0e0;
@@ -46,5 +45,9 @@ footer {
     --footer-bg: #111;
     --footer-color: #aaa;
 }
-
- 
+section {
+  display: none;
+}
+section.active {
+  display: block;
+}
