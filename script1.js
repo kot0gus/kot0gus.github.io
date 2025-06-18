@@ -1,4 +1,5 @@
 document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById("Projekti").innerHTML = translations["ru"].project_text;
 
 const translations = {
     lv: {
