@@ -11,8 +11,7 @@ const translations = {
         blog_title: "Blogs",
         bio_title: "Biogrāfija",
         gallery_title: "Galerija",
-        project_text: "Projekts 1 - apraksts Praktiskajas macības laikā man vajadzēja uztaisīt cenu kalkulatoru mājaslapu izstrādes uzņēmumam. Galvenie nosācijumi bija izmantot 3 programmēšanas valodas HTML, CSS, JavaScript, papildus vajadzēja izmantot "checkbox".Ka arī,bija nepieciešams parbaudīt ka strada izveidota saite parbaudīt viņu
-          <a href=" https://validator.w3.org/" target="_blank" rel="noopener noreferrer">"validator" </a> un <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener noreferrer">"google lighthouse"</a>.Lai saite izskatījas labāk, mans uzdevums bija uztaisīt tabulas, kur atrodas visa nepieciešama informācija un to varētu viegli izpētit un bez grutībam izmantot.",
+        project_text: "Projekts 1 - apraksts Praktiskajas macības laikā man vajadzēja uztaisīt cenu kalkulatoru mājaslapu izstrādes uzņēmumam. Galvenie nosācijumi bija izmantot 3 programmēšanas valodas HTML, CSS, JavaScript, papildus vajadzēja izmantot .Ka arī,bija nepieciešams parbaudīt ka strada izveidota saite parbaudīt viņu. Lai saite izskatījas labāk, mans uzdevums bija uztaisīt tabulas, kur atrodas visa nepieciešama informācija un to varētu viegli izpētit un bez grutībam izmantot.",
         bio_text: "Es esmu Darja Rižkova, RTK audzeknis programmēšanā. Turpmāk iešu macīties par programmēšanas lingvistu. Uz doto momentu zinu angļu, krievu, latviešu valodu un mācu vācu valodu. Man patīk ceļot un uz doto momentu biju apmeklējusi 22 valsti (mēs ar vēcakiem ceļojām ar mašinu ). Ka arī man ir suns viņu sauc Terra un viņai ir seši gadi. "
     },
     en: {
@@ -37,7 +36,7 @@ const translations = {
         blog_title: "Блог",
         bio_title: "Биография",
         gallery_title: "Галерея",
-        project_text:"Описание проекта",
+        project_text:"Описание проекта: Во врема практики в колледже, мне надо было сделать сайт калькулятор цен для компании по разработке сайтов. Главные критерии были использоввть 3 языка программирования HTML, CSS, JavaScript. Также, надо было проверить как работает сайт через две онлайн-программы. По мимо этого, чтобы сайт выглядел хорошо и был удобен в использовании я создавала таблицы и вся необходимая информация находилась именно там.",
         bio_text:"Меня зовут Дарья Рыжкова, я учусь в РТК по специальности программиста. В будущем я буду учиться на лингвиста и по профессии лингвист по программированию. На данный момент я знаю английский, русский, латышский и изучаю немецкий. Мне нравится путешествовать и на данный момент я посетила 22 страны(мы с родителями путешествуем на машине). Также, у меня есть собака её зовут Терра и ей шесть лет. "
     },
     de: {
