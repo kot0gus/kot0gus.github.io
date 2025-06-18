@@ -23,7 +23,7 @@ const translations = {
         blog_title: "Blog",
         bio_title: "Biography",
         gallery_title: "Gallery",
-        project_text: "Project description",
+        project_text: "Project description. Praktiskajas macības laikā man vajadzēja uztaisīt cenu kalkulatoru mājaslapu izstrādes uzņēmumam. Galvenie nosācijumi bija izmantot 3 programmēšanas valodas HTML, CSS, JavaScript, papildus vajadzēja izmantot "checkbox".Ka arī,bija nepieciešams parbaudīt ka strada izveidota saite parbaudot to divas online programmas. Lai saite izskatījas labāk, mans uzdevums bija uztaisīt tabulas, kur atrodas visa nepieciešama informācija un to varētu viegli izpētit un bez grutībam izmantot.",
         bio_text: "I'm Daria Ryzkhova, studying programming in RTK. In the future, I will study to programming linguist. At the moment, I know only three languages English, Russian and Latvian, but, also, I have been learning German for a half of year. I really enjoy traveling so I have visited 22 countries already(me with parents love traveling by car). Also, I have a dog her name is Terra and she is six years old."
 
     },
