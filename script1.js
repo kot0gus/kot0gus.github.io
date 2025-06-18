@@ -11,7 +11,7 @@ const translations = {
         blog_title: "Blogs",
         bio_title: "Biogrāfija",
         gallery_title: "Galerija",
-        project_text: "Projekts 1 - apraksts",
+        project_text: "Projekts 1 - apraksts. Praktiskajas macības laikā man vajadzēja uztaisīt cenu kalkulatoru mājaslapu izstrādes uzņēmumam. Galvenie nosācijumi bija izmantot 3 programmēšanas valodas HTML, CSS, JavaScript, papildus vajadzēja izmantot "checkbox".Ka arī,bija nepieciešams parbaudīt ka strada izveidota saite parbaudot to divas online programmas. Lai saite izskatījas labāk, mans uzdevums bija uztaisīt tabulas, kur atrodas visa nepieciešama informācija un to varētu viegli izpētit un bez grutībam izmantot.",
         bio_text: "Es esmu Darja Rižkova, RTK audzeknis programmēšanā. Turpmāk iešu macīties par programmēšanas lingvistu. Uz doto momentu zinu angļu, krievu, latviešu valodu un mācu vācu valodu. Man patīk ceļot un uz doto momentu biju apmeklējusi 22 valsti (mēs ar vēcakiem ceļojām ar mašinu ). Ka arī man ir suns viņu sauc Terra un viņai ir seši gadi. "
     },
     en: {
