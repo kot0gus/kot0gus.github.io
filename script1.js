@@ -50,8 +50,7 @@ const translations = {
       gallery_title: "Galerie",
       project_text: "Beschreibung des Projekts: Während meines Hochschulpraktikums musste ich einen Preiskalkulator für eine Website-Entwicklungsfirma erstellen. Die wichtigsten Kriterien waren die Verwendung der drei Programmiersprachen HTML, CSS und JavaScript sowie die Verwendung von Kontrollkästchen. Außerdem musste ich die Website mit zwei Online-Programmen testen. Außerdem habe ich Tabellen erstellt, um die Navigation auf der Website zu erleichtern und alle notwendigen Informationen leicht auffindbar zu machen.",
       bio_text: "Mein Name ist Daria Ryzhkova, ich studiere am RTC und spezialisiere mich auf Programmierung. In Zukunft werde ich Linguistin studieren und von Beruf Linguistin für Programmierung sein. Im Moment ich spreche Englisch, Russisch, Lettisch und ein bisschen Deutsch.  Ich reise gerne und habe bisher 22 Länder besucht (meine Eltern und ich sind mit dem Auto unterwegs). So ich habe hund sie Name ist Terra und sie ist sechs Jāhre alt"
-
-    }
+    },
   };
 
 document.getElementById('language').addEventListener('change', (e) => {
