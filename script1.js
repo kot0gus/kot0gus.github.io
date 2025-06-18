@@ -11,7 +11,7 @@ const translations = {
         blog_title: "Blogs",
         bio_title: "Biogrāfija",
         gallery_title: "Galerija",
-        project_text: "Projekts 1 - apraksts",
+        project_text: "Projekts 1 - apraksts: : Praktiskajas macības laikā man vajadzēja uztaisīt cenu kalkulatoru mājaslapu izstrādes uzņēmumam. Galvenie nosācijumi bija izmantot 3 programmēšanas valodas HTML, CSS, JavaScript, papildus vajadzēja izmantot "checkbox".Ka arī,bija nepieciešams parbaudīt ka strada izveidota saite parbaudot to divas online programmas. Lai saite izskatījas labāk, mans uzdevums bija uztaisīt tabulas, kur atrodas visa nepieciešama informācija un to varētu viegli izpētit un bez grutībam izmantot.",
         bio_text: "Es esmu Darja Rižkova, RTK audzeknis programmēšanā. Turpmāk iešu macīties par programmēšanas lingvistu. Uz doto momentu zinu angļu, krievu, latviešu valodu un mācu vācu valodu. Man patīk ceļot un uz doto momentu biju apmeklējusi 22 valsti (mēs ar vēcakiem ceļojām ar mašinu ). Ka arī man ir suns viņu sauc Terra un viņai ir seši gadi. "
     },
     en: {
@@ -23,7 +23,7 @@ const translations = {
         blog_title: "Blog",
         bio_title: "Biography",
         gallery_title: "Gallery",
-        project_text: "Project description",
+        project_text: "Project description: During my college practice, I had to create a price calculator for a website development company. The main criteria were to use three programming languages ​​HTML, CSS, JavaScript, and use a checkbox. It was also necessary to check how the site works through two online programs. In addition to this, I created tables to make it easier to navigate the site and to make all the necessary information easy to find.",
         bio_text: "I'm Daria Ryzkhova, studying programming in RTK. In the future, I will study to programming linguist. At the moment, I know only three languages English, Russian and Latvian, but, also, I have been learning German for a half of year. I really enjoy traveling so I have visited 22 countries already(me with parents love traveling by car). Also, I have a dog her name is Terra and she is six years old."
 
     },
@@ -36,7 +36,7 @@ const translations = {
         blog_title: "Блог",
         bio_title: "Биография",
         gallery_title: "Галерея",
-        project_text:"Описание проекта",
+        project_text:"Описание проекта: Во время практики в колледже, мне надо было создать калькулятор цен для компании по разработке сайтов. Главные критерии были использовать три языка программирования HTML, CSS, JavaScript, и использовать checkbox.Также было необходимо проверить как работает сайт через две онлайн программы. ПО мимо этого, я создала таблицы, чтобы было легче ориентироваться по сайту и, чтобы все необходимую информацию было легко найти.",
         bio_text:"Меня зовут Дарья Рыжкова, я учусь в РТК по специальности программиста. В будущем я буду учиться на лингвиста и по профессии лингвист по программированию. На данный момент я знаю английский, русский, латышский и изучаю немецкий. Мне нравится путешествовать и на данный момент я посетила 22 страны(мы с родителями путешествуем на машине). Также, у меня есть собака её зовут Терра и ей шесть лет. "
     },
     de: {
@@ -48,7 +48,7 @@ const translations = {
       blog_title: "Blog",
       bio_title: "Biographie",
       gallery_title: "Galerie",
-      project_text: "Beschreibung des Projekts",
+      project_text: "Beschreibung des Projekts: Während meines Hochschulpraktikums musste ich einen Preiskalkulator für eine Website-Entwicklungsfirma erstellen. Die wichtigsten Kriterien waren die Verwendung der drei Programmiersprachen HTML, CSS und JavaScript sowie die Verwendung von Kontrollkästchen. Außerdem musste ich die Website mit zwei Online-Programmen testen. Außerdem habe ich Tabellen erstellt, um die Navigation auf der Website zu erleichtern und alle notwendigen Informationen leicht auffindbar zu machen.",
       bio_text: "Mein Name ist Daria Ryzhkova, ich studiere am RTC und spezialisiere mich auf Programmierung. In Zukunft werde ich Linguistin studieren und von Beruf Linguistin für Programmierung sein. Im Moment ich spreche Englisch, Russisch, Lettisch und ein bisschen Deutsch.  Ich reise gerne und habe bisher 22 Länder besucht (meine Eltern und ich sind mit dem Auto unterwegs). So ich habe hund sie Name ist Terra und sie ist sechs Jāhre alt"
 
     }
