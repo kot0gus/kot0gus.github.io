@@ -9,7 +9,7 @@ const translations = {
         blog_title: "Blogs",
         bio_title: "Biogrāfija",
         gallery_title: "Galerija",
-        bio_text: "Es esmu Darja Rižkova, RTK audzeknis programmēšanā. Turpmāk iešu macīties par programmēšanas lingvistu. Uz doto momentu zinu angļu, krievu, latviešu valodu un mācu vācu valodu. Man patīk ceļot un uz doto momentu biju apmeklējusi 22 valsti (mēs ar vēcakiem ceļojām ar mašinu ). Ka arī man ir suns, viņu sauc Terra un viņai ir seši gadi. ",
+        bio_text: "Es esmu Darja Rižkova, RTK audzeknis programmēšanā. Turpmāk iešu macīties par programmēšanas lingvistu. Uz doto momentu zinu angļu, krievu, latviešu valodu un mācu vācu valodu. Man patīk ceļot un uz doto momentu biju apmeklējusi 22 valsti (mēs ar vēcakiem ceļojām ar mašinu ). Ka arī man ir suns viņu sauc Terra un viņai ir seši gadi. ",
         contacts: "Kontakti",
         contacts_title: "Kontakti un analītika",
         social_links: "Mani var atrast Instagram:",
