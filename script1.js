@@ -12,6 +12,7 @@ const translations = {
         bio_text: "Es esmu Darja Rižkova, RTK audzeknis programmēšanā. Turpmāk iešu macīties par programmēšanas lingvistu. Uz doto momentu zinu angļu, krievu, latviešu valodu un mācu vācu valodu. Man patīk ceļot un uz doto momentu biju apmeklējusi 22 valsti (mēs ar vēcakiem ceļojām ar mašinu ). Ka arī man ir suns viņu sauc Terra un viņai ir seši gadi. ",
         contacts: "Kontakti",
         contacts_title: "Kontakti un analītika",
+        social_links: "Mani var atrast Instagram:",
 
     },
     en: {
@@ -24,6 +25,7 @@ const translations = {
         bio_text: "I'm Daria Ryzkhova, studying programming in RTK. In the future, I will study to programming linguist. At the moment, I know only three languages English, Russian and Latvian, but, also, I have been learning German for a half of year. I really enjoy traveling so I have visited 22 countries already(me with parents love traveling by car). Also, I have a dog her name is Terra and she is six years old.",
         contacts: "Contacts",
         contacts_title: "Contacts and analytics",
+        social_links: "You can find me in Instagram:",
     },
     ru: {
         welcome: "Добро пожаловать на мой сайт!",
@@ -35,6 +37,7 @@ const translations = {
         bio_text:"Меня зовут Дарья Рыжкова, я учусь в РТК по специальности программиста. В будущем я буду учиться на лингвиста и по профессии лингвист по программированию. На данный момент я знаю английский, русский, латышский и изучаю немецкий. Мне нравится путешествовать и на данный момент я посетила 22 страны(мы с родителями путешествуем на машине). Также, у меня есть собака её зовут Терра и ей шесть лет. ",
         contacts: "Контакты",
         contacts_title: "Kонтакты и аналитика",
+        social_links: "Меня можно найти в Instagram:",
     },
     de: {
       welcome: "Willkommen auf meiner Website!",
@@ -46,6 +49,7 @@ const translations = {
       bio_text: "Mein Name ist Daria Ryzhkova, ich studiere am RTC und spezialisiere mich auf Programmierung. In Zukunft werde ich Linguistin studieren und von Beruf Linguistin für Programmierung sein. Im Moment ich spreche Englisch, Russisch, Lettisch und ein bisschen Deutsch.  Ich reise gerne und habe bisher 22 Länder besucht (meine Eltern und ich sind mit dem Auto unterwegs). So ich habe hund sie Name ist Terra und sie ist sechs Jāhre alt",
       contacts: "Kontakte",
       contacts_title: "Kontakte und Analytik",
+      social_links: "Sie können mich auf Instagram finden::",
     }
   };
 
