@@ -13,7 +13,10 @@ const translations = {
         contacts: "Kontakti",
         contacts_title: "Kontakti un analītika",
         social_links: "Mani var atrast Instagram:",
-
+        name: "Vārds:",
+        email: "E-pasts:",
+        message: "Message:",
+        submit: "Sūtīt",
     },
     en: {
         welcome: "Welcome to my personal site!",
@@ -26,6 +29,10 @@ const translations = {
         contacts: "Contacts",
         contacts_title: "Contacts and analytics",
         social_links: "You can find me in Instagram:",
+        name: "Name:",
+        email: "E-mail:",
+        message: "Message:",
+        submit: "Submit",
     },
     ru: {
         welcome: "Добро пожаловать на мой сайт!",
@@ -38,6 +45,10 @@ const translations = {
         contacts: "Контакты",
         contacts_title: "Kонтакты и аналитика",
         social_links: "Меня можно найти в Instagram:",
+        name: "Имя:",
+        email: "Э-почта:",
+        message: "Сообщение:",
+        submit: "Подтвердить",
     },
     de: {
       welcome: "Willkommen auf meiner Website!",
@@ -50,6 +61,10 @@ const translations = {
       contacts: "Kontakte",
       contacts_title: "Kontakte und Analytik",
       social_links: "Sie können mich auf Instagram finden::",
+      name: "Name:",
+      email: "E-mail:",
+      message: "Nachricht:",
+      submit: "Bestätigung",
     }
   };
 
