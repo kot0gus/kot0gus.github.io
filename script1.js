@@ -19,7 +19,6 @@ const translations = {
         bio_title: "Biography",
         gallery_title: "Gallery",
         bio_text: "I'm Daria Ryzkhova, studying programming in RTK. In the future, I will study to programming linguist. At the moment, I know only three languages English, Russian and Latvian, but, also, I have been learning German for a half of year. I really enjoy traveling so I have visited 22 countries already(me with parents love traveling by car). Also, I have a dog her name is Terra and she is six years old."
-
     },
     ru: {
         welcome: "Добро пожаловать на мой сайт!",
@@ -38,7 +37,6 @@ const translations = {
       bio_title: "Biographie",
       gallery_title: "Galerie",
       bio_text: "Mein Name ist Daria Ryzhkova, ich studiere am RTC und spezialisiere mich auf Programmierung. In Zukunft werde ich Linguistin studieren und von Beruf Linguistin für Programmierung sein. Im Moment ich spreche Englisch, Russisch, Lettisch und ein bisschen Deutsch.  Ich reise gerne und habe bisher 22 Länder besucht (meine Eltern und ich sind mit dem Auto unterwegs). So ich habe hund sie Name ist Terra und sie ist sechs Jāhre alt"
-
     }
   };
 
