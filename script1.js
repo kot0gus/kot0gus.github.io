@@ -71,3 +71,21 @@ document.querySelectorAll('nav a[data-section]').forEach(link => {
 });
 
 document.querySelector("section").classList.add("active");
+
+document.getElementById('contact-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
+    const status = document.getElementById('form-status');
+
+    if (name && email && message) {
+        status.textContent = "Paldies! Ziņa nosūtīta (simulēti)";
+        status.style.color = "green";
+        this.reset();
+    } else {
+        status.textContent = "Lūdzu aizpildi visus laukus.";
+        status.style.color = "red";
+    }
+});

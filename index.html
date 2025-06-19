@@ -12,6 +12,7 @@
         <nav>
             <a href="#" data-section="bio" data-i18n="about">Par mani</a>
             <a href="#" data-section="galerija" data-i18n="gallery">Galerija</a>
+            <a href="#" data-section="kontakti" data-i18n="contacts">Kontakti</a>
         </nav>
         <div class="controls">
             <label for="language">🌐</label>
@@ -44,6 +45,37 @@
         <img src="img/italija.jpg" alt="Itālija" width="250">
         <img src="img/portugalija.jpg" alt="Portugāle" width="250">
     </section>
+
+    <section id="kontakti">
+    <h2 data-i18n="contacts_title">Kontakti un analītika</h2>
+
+    <div class="social-links">
+        <p>Mani var atrast Instagram:</p>
+        <a href="https://www.instagram.com/tavs_profils" target="_blank">
+            <img src="img/instagram.png" alt="Instagram" width="40"> Instagram
+        </a>
+    </div>
+
+    <form id="contact-form">
+        <label for="name">Vārds:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-pasts:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Ziņa:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Sūtīt</button>
+        <p id="form-status"></p>
+    </form>
+
+    <div class="counter">
+        <p>Apmeklējumu skaits:</p>
+        <img src="https://hitwebcounter.com/counter/counter.php?page=1234567&style=0006&nbdigits=5" alt="Skaitītājs">
+    </div>
+</section>
+
 
     <footer>
         <p>&copy; <span id="year"></span> Darja Rižkova</p>

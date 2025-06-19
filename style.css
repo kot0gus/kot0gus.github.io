@@ -51,3 +51,66 @@ section {
 section.active {
   display: block;
 }
+#kontakti {
+    padding: 20px;
+    margin: 20px;
+    background-color: var(--section-bg, #f9f9f9);
+}
+
+#kontakti h2 {
+    margin-bottom: 15px;
+}
+
+.social-links {
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #e1306c; /* Instagram krāsa */
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-links img {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+#form-status {
+    color: green;
+    font-size: 14px;
+}
+
+.counter {
+    margin-top: 20px;
+}
